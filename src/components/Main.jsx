@@ -33,10 +33,10 @@ class Main extends Component {
   renderBinInput = () => {
     const { binaryNumberInput, maxLengthInput } = this.props;
     return (
-    <div class="form-group">
-      <input
-        class="form-control form-control-lg"
-        type="number"
+      <div className="form-group">
+        <input
+          className="form-control form-control-lg"
+          type="number"
         name="numBinario"
         id="numBinario"
         placeholder="Insira um número binário"
