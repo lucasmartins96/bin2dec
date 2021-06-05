@@ -1,0 +1,20 @@
+@font-face{
+    font-family: 'Alarm Clock';
+    src: url(../src/fonts/alarm-clock.ttf);
+}
+
+body {
+    background-color: #F4EFEC;
+}
+
+.jumbotron {
+    background-color: #ABA8A6;
+}
+
+.decDisplay {
+    font-family: 'Alarm Clock';
+}
+
+.border{
+    border-width: medium !important;
+}
