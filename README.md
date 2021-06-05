@@ -14,13 +14,13 @@ Este desafio requer que o desenvolvedor que o está implementando siga estas res
 
 ## Histórias de usuário
 
-- [ ] O usuário pode inserir até 8 dígitos binários em um campo de entrada
-- [ ] O usuário deve ser notificado se qualquer coisa que não seja um 0 ou 1 foi inserido
-- [ ] O usuário visualiza os resultados em um único campo de saída contendo o equivalente decimal (base 10) do número binário que foi digitado
+- [X] O usuário pode inserir até 8 dígitos binários em um campo de entrada
+- [X] O usuário deve ser notificado se qualquer coisa que não seja um 0 ou 1 foi inserido
+- [X] O usuário visualiza os resultados em um único campo de saída contendo o equivalente decimal (base 10) do número binário que foi digitado
 
 ## Recursos bônus
 
-- [ ] O usuário pode introduzir um número variável de dígitos binários
+- [X] O usuário pode introduzir um número variável de dígitos binários
 
 ## Links e recursos úteis
 
