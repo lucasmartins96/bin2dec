@@ -53,6 +53,8 @@ class Main extends Component {
     );
   }
 
+  charToInt = (char) => parseInt(char);
+
   bin2Dec = () => {
     const { binaryNumberInput, isNotBinaryNumber } = this.state;
     if (!isNotBinaryNumber) {
