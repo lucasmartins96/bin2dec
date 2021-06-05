@@ -20,10 +20,19 @@ class Main extends Component {
         </p>
       </div>
     );
-};
+  }
 
-const renderBinInput = () => {
-  return (
+  handleChange = ({ target: { name, value } }) => {
+    const isNotBinaryNumber = value.match(/[^0-1]/);
+    this.setState({
+      [name]: value,
+      isNotBinaryNumber,
+    });
+  }
+
+  renderBinInput = () => {
+    const { binaryNumberInput, maxLengthInput } = this.props;
+    return (
     <div class="form-group">
       <input
         class="form-control form-control-lg"
