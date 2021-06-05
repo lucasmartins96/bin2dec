@@ -39,6 +39,9 @@ class Main extends Component {
           type="number"
           name="binaryNumberInput"
           placeholder="Insira um número binário"
+          value={binaryNumberInput}
+          onChange={this.handleChange}
+          maxLength={maxLengthInput}
       />
     </div>
   );
