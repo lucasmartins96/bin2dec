@@ -14,10 +14,12 @@ class Main extends Component {
   renderDecDisplay = () => {
     const { decimalNumberDisplay } = this.state;
     return (
-    <button class="btn btn-secondary btn-lg btn-block" id="btnConverter">
-      Converter
-    </button>
-  );
+      <div className="decDisplay mb-5 border border-dark">
+        <p id="resultado" className="display-1 container mb-0">
+          {decimalNumberDisplay}
+        </p>
+      </div>
+    );
 };
 
 const renderBinInput = () => {
