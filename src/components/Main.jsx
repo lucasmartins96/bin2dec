@@ -42,18 +42,18 @@ class Main extends Component {
           value={binaryNumberInput}
           onChange={this.handleChange}
           maxLength={maxLengthInput}
-      />
-    </div>
-  );
-};
+        />
+      </div>
+    );
+  }
 
-const renderDecDisplay = () => {
-  return (
-    <div class="decDisplay mb-5 border border-dark">
-      <p id="resultado" class="display-1 container mb-0">0</p>
-    </div>
-  );
-}
+  renderErrorAlert = () => {
+    return (
+      <div className="alert alert-danger" role="alert">
+        ❗Ops... Insira somente 0 e 1❗
+      </div>
+    );
+  }
 
 function Main() {
   return (
