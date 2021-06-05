@@ -84,12 +84,14 @@ class Main extends Component {
   render() {
     const { isNotBinaryNumber } = this.state;
     return (
-    <section class="conteudo">
-      {renderDecDisplay()}
-      {renderBinInput()}
-      {renderButton()}
-    </section>
-  );
+      <section className="conteudo">
+        {this.renderDecDisplay()}
+        {this.renderBinInput()}
+        {isNotBinaryNumber && this.renderErrorAlert()}
+        {this.renderButton()}
+      </section>
+    );
+  }
 }
 
 export default Main;
