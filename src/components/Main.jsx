@@ -59,10 +59,11 @@ class Main extends Component {
     const { binaryNumberInput, isNotBinaryNumber } = this.state;
     if (!isNotBinaryNumber) {
       let decimalNumber = 0;
-      let expoent = binaryNumberInput.length - 1;
+      let maxExponent = binaryNumberInput.length - 1;
       for (let i = 0; i < binaryNumberInput.length; i += 1) {
-        decimalNumber += parseInt(binaryNumberInput.charAt(i)) * Math.pow(2, expoent);
-        expoent -= 1;
+        const charBinary = binaryNumberInput.charAt(i);
+        decimalNumber += this.charToInt(charBinary) * (2 ** maxExponent);
+        maxExponent -= 1;
       }
       this.setState({
         decimalNumberDisplay: decimalNumber,
