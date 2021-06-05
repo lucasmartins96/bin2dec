@@ -37,9 +37,8 @@ class Main extends Component {
         <input
           className="form-control form-control-lg"
           type="number"
-        name="numBinario"
-        id="numBinario"
-        placeholder="Insira um número binário"
+          name="binaryNumberInput"
+          placeholder="Insira um número binário"
       />
     </div>
   );
