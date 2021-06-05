@@ -1,7 +1,19 @@
 import React from "react";
 
-const renderButton = () => {
-  return (
+class Main extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      binaryNumberInput: "",
+      maxLengthInput: 8,
+      isNotBinaryNumber: false,
+      decimalNumberDisplay: 0,
+    };
+  }
+
+  renderDecDisplay = () => {
+    const { decimalNumberDisplay } = this.state;
+    return (
     <button class="btn btn-secondary btn-lg btn-block" id="btnConverter">
       Converter
     </button>
