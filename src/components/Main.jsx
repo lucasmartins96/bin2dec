@@ -5,7 +5,6 @@ class Main extends Component {
     super(props);
     this.state = {
       binaryNumberInput: "",
-      maxLengthInput: 8,
       isNotBinaryNumber: false,
       decimalNumberDisplay: 0,
     };
@@ -31,7 +30,7 @@ class Main extends Component {
   }
 
   renderBinInput = () => {
-    const { binaryNumberInput, maxLengthInput } = this.props;
+    const { binaryNumberInput } = this.props;
     return (
       <div className="form-group">
         <input
@@ -41,7 +40,6 @@ class Main extends Component {
           placeholder="Insira um número binário"
           value={binaryNumberInput}
           onChange={this.handleChange}
-          maxLength={maxLengthInput}
         />
       </div>
     );
