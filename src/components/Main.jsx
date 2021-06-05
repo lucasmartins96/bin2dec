@@ -55,8 +55,35 @@ class Main extends Component {
     );
   }
 
-function Main() {
-  return (
+  bin2Dec = () => {
+    const { binaryNumberInput, isNotBinaryNumber } = this.state;
+    if (!isNotBinaryNumber) {
+      let decimalNumber = 0;
+      let expoent = binaryNumberInput.length - 1;
+      for (let i = 0; i < binaryNumberInput.length; i += 1) {
+        decimalNumber += parseInt(binaryNumberInput.charAt(i)) * Math.pow(2, expoent);
+        expoent -= 1;
+      }
+      this.setState({
+        decimalNumberDisplay: decimalNumber,
+      });
+    }
+  }
+
+  renderButton = () => {
+    return (
+      <button
+        type="button"
+        className="btn btn-secondary btn-lg btn-block"
+        onClick={ () => this.bin2Dec() }>
+        Converter
+      </button>
+    );
+  }
+
+  render() {
+    const { isNotBinaryNumber } = this.state;
+    return (
     <section class="conteudo">
       {renderDecDisplay()}
       {renderBinInput()}
