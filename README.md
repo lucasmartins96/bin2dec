@@ -29,6 +29,8 @@ Este desafio requer que o desenvolvedor que o está implementando siga estas res
 ## My Page
 
 [bin2dec](https://lucasmartins96.github.io/bin2dec/)
+
+[retornar ao my-app-ideas](https://github.com/lucasmartins96/my-app-ideas/tree/main/beginner)
 <!-- ## Example projects
 
 Try not to view this until you've developed your own solution:
