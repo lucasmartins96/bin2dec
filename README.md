@@ -26,6 +26,9 @@ Este desafio requer que o desenvolvedor que o está implementando siga estas res
 
 [Binary number system](https://en.wikipedia.org/wiki/Binary_number)
 
+## My Page
+
+[bin2dec](https://lucasmartins96.github.io/bin2dec/)
 <!-- ## Example projects
 
 Try not to view this until you've developed your own solution:
