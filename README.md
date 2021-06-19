@@ -26,9 +26,13 @@ Este desafio requer que o desenvolvedor que o está implementando siga estas res
 
 [Binary number system](https://en.wikipedia.org/wiki/Binary_number)
 
-## My Page
+## My App
 
-[bin2dec](https://lucasmartins96.github.io/bin2dec/)
+![aplicação pronta](images/bin2dec.gif)
+
+### [bin2dec](https://lucasmartins96.github.io/bin2dec/)
+
+#### [retornar ao my-app-ideas](https://github.com/lucasmartins96/my-app-ideas/tree/main/beginner)
 <!-- ## Example projects
 
 Try not to view this until you've developed your own solution:
